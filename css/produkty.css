@@ -1,0 +1,64 @@
+.quantityInput {
+    width: 100px;
+}
+
+.cartCheckbox {
+    display: none;
+}
+
+.delItemBtn {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .darkMode .color_btn {
+        height: 12rem;
+        
+    }
+}
+
+/* 
+
+#toCart1:checked ~ .itemButtons #toCartBtn1,
+#toCart2:checked ~ .itemButtons #toCartBtn2,
+#toCart3:checked ~ .itemButtons #toCartBtn3,
+#toCart4:checked ~ .itemButtons #toCartBtn4,
+#toCart5:checked ~ .itemButtons #toCartBtn5,
+#toCart6:checked ~ .itemButtons #toCartBtn6,
+#toCart7:checked ~ .itemButtons #toCartBtn7,
+#toCart8:checked ~ .itemButtons #toCartBtn8 {
+    display: none;
+}
+
+#toCart1:checked ~ .itemButtons #outOfCartBtn1,
+#toCart2:checked ~ .itemButtons #outOfCartBtn2,
+#toCart3:checked ~ .itemButtons #outOfCartBtn3,
+#toCart4:checked ~ .itemButtons #outOfCartBtn4,
+#toCart5:checked ~ .itemButtons #outOfCartBtn5,
+#toCart6:checked ~ .itemButtons #outOfCartBtn6,
+#toCart7:checked ~ .itemButtons #outOfCartBtn7,
+#toCart8:checked ~ .itemButtons #outOfCartBtn8 {
+    display: block;
+}
+
+#toCart1:checked ~ .itemButtons label,
+#toCart2:checked ~ .itemButtons label,
+#toCart3:checked ~ .itemButtons label,
+#toCart4:checked ~ .itemButtons label,
+#toCart5:checked ~ .itemButtons label,
+#toCart6:checked ~ .itemButtons label,
+#toCart7:checked ~ .itemButtons label,
+#toCart8:checked ~ .itemButtons label {
+    background-color: rgb(173, 16, 16);
+}
+
+#toCart1:checked ~ .itemButtons label:hover,
+#toCart2:checked ~ .itemButtons label:hover,
+#toCart3:checked ~ .itemButtons label:hover,
+#toCart4:checked ~ .itemButtons label:hover,
+#toCart5:checked ~ .itemButtons label:hover,
+#toCart6:checked ~ .itemButtons label:hover,
+#toCart7:checked ~ .itemButtons label:hover,
+#toCart8:checked ~ .itemButtons label:hover{
+    background-color: rgb(189, 48, 48);
+} */

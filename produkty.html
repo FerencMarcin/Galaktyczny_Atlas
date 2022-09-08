@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Produkty</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="favicon3.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/produkty.css" />
+  </head>
+  <body id="page-top" class="">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <!-- navbar  -->
+      <div class="container">
+        <!-- menu button -->
+        <button
+          type="button"
+          class="btn btn-outline-light mx-lg-2 mx-xxl-5"
+          id="menuBtn"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasWithBackdrop"
+          aria-controls="offcanvasWithBackdrop"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- home page button - house icon -->
+        <a class="navbar-brand" id="domek" href="#produkty"
+          ><i class="fas fa-home"></i>
+        </a>
+        <!-- home page button - brand  -->
+        <a class="navbar-brand mx-auto strGlownaLink" href="#produkty">
+          <img
+            src="assets/logoGimp.png"
+            class="strGlownaLink"
+            style="height: 38px"
+            alt="logo"
+          />
+        </a>
+        <button id="ModeBtn" class="btn btn-outline-light mx-lg-2 mx-xxl-5">
+          <i class="fas fa-adjust"></i>
+        </button>
+      </div>
+
+      <!-- offcanva - Menu of all service -->
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasWithBackdrop"
+        aria-labelledby="offcanvasWithBackdropLabel"
+      >
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title mx-auto" id="offcanvasWithBackdropLabel">
+            Menu
+          </h5>
+          <button
+            type="button"
+            class="btn btn-danger"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body my-4">
+          <div class="my-2">
+            <a href="index.html" class="menuElement px-3"
+              ><i class="fas fa-home me-2"></i>Strona głowna
+            </a>
+          </div>
+          <div class="my-2">
+            <a href="galeria.html" class="menuElement px-3"
+              ><i class="fas fa-images me-2"></i>Galeria
+            </a>
+          </div>
+          <div class="my-2">
+            <a href="atlas.html" class="menuElement px-3"
+              ><i class="fas fa-atlas me-2"></i>Galaktyczny Atlas
+            </a>
+          </div>
+          <div class="my-2">
+            <a href="obserwatoria.html" class="menuElement px-3">
+              <i class="fas fa-search-location me-2"></i>Obserwatoria
+            </a>
+          </div>
+          <div class="my-2">
+            <a href="produkty.html" class="menuElement px-3"
+              ><i class="fas fa-shopping-cart me-2"></i>Produkty
+              <span
+                id="sizeOfCart"
+                class="ms-auto badge rounded-pill"
+              ></span
+            ></a>
+          </div>
+          <div class="my-2">
+            <a href="zamowienia.html" class="menuElement px-3"
+              ><i class="fas fa-clipboard-list me-2"></i>Zamówienia
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div id="produkty" class="parallax3 parallax">
+        <div class="heading">Produkty</div>
+      </div>
+    </header>
+    <main>
+      <section class="page-section" id="productDescription">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-5 h_color">Co oferuje nasz sklep?</h2>
+          <p class="lh-base p_justify p_color">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ab
+            sequi adipisci inventore dolor voluptas praesentium soluta rem eos,
+            aliquam, dolorum totam beatae! Rerum sequi odit ullam! Iste tenetur
+            vitae est sit aut dolorem modi doloremque veniam distinctio? Vitae
+            officiis deleniti necessitatibus architecto laudantium, totam quos,
+            delectus consequatur sed qui quia ut aliquam iste fugiat iure,
+            explicabo quo quasi. Unde, libero est quaerat assumenda molestiae
+            ipsam aperiam at tempora nihil atque, iusto voluptatem quidem
+            consectetur, officia facere beatae. A aperiam doloremque labore,
+            laborum velit ab, nulla culpa aspernatur officia mollitia soluta
+            laudantium facere dolor error vero quam ullam aliquam facilis. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Fuga omnis
+            tempore itaque repellendus sunt veritatis, facere id aliquid
+            quibusdam temporibus! Necessitatibus asperiores distinctio ullam
+            corrupti laudantium repudiandae suscipit totam ab, expedita natus,
+            nemo esse pariatur tempora eveniet, illum dolorem. Cumque?
+          </p>
+        </div>
+      </section>
+      <section class="page-section" id="productList">
+        <h2 class="text-center fs-1 mb-5 h_color">Produkty w ofercie:</h2>
+        <div class="container">
+          <div
+            class="
+              d-flex
+              my-3
+              justify-content-center
+              flex-column flex-sm-row
+              px-5
+              color_btn
+            "
+          >
+            <button
+              id="clearFind"
+              class="btn btn-outline-dark my-2 my-sm-0 mx-3 order-2 order-sm-0"
+            >
+              Wyszyść
+            </button>
+            <input id="searchingString" class="order-1 py-1" type="text" />
+            <button id="findBtn" class="btn btn-outline-dark mx-3 order-3">
+              Wyszukaj
+            </button>
+          </div>
+          <div
+            id="itemsContainer"
+            class="
+              row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xxl-4
+              g-4
+              mx-2
+              pb-5
+            "
+          >
+            <!-- item1  -->
+            <div id="item_1" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item1_title" class="card-title h_color_muted">Książka o Ziemi</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item1" class="itemPriceNum">30</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput1"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart1"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart1" class="btn btn-secondary">
+                    <span id="toCartBtn1">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn1"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- item2 -->
+            <div id="item_2" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item2_title" class="card-title h_color_muted">Książka o Marsie</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item2" class="itemPriceNum">30</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput2"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart2"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart2" class="btn btn-secondary">
+                    <span id="toCartBtn2">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn2"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- item3  -->
+            <div id="item_3" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item3_title" class="card-title h_color_muted">Galaktyczny atlas</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item3" class="itemPriceNum">45</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput3"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart3"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart3" class="btn btn-secondary">
+                    <span id="toCartBtn3">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn3"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div id="item_4" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item4_title" class="card-title h_color_muted">Księżycowy kubek</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item4" class="itemPriceNum">20</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput4"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart4"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart4" class="btn btn-secondary">
+                    <span id="toCartBtn4">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn4"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div id="item_5" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item5_title" class="card-title h_color_muted">Puzzle - 1000 elementów</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item5" class="itemPriceNum">55</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput5"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart5"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart5" class="btn btn-secondary">
+                    <span id="toCartBtn5">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn5"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div id="item_6" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item6_title" class="card-title h_color_muted">Brelok do kluczy</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item6" class="itemPriceNum">22</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput6"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart6"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart6" class="btn btn-secondary">
+                    <span id="toCartBtn6">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn6"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div id="item_7" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item7_title" class="card-title h_color_muted">Kubek z nadrukiem</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item7" class="itemPriceNum">15</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput7"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart7"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart7" class="btn btn-secondary">
+                    <span id="toCartBtn7">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn7"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+            <!-- item8  -->
+            <div id="item_8" class="col">
+              <div class="card d-flex flex-column align-items-center p-3 card_color">
+                <h5 id="item8_title" class="card-title h_color_muted">Kolorowanka</h5>
+                <table class="p_color">
+                  <tr>
+                    <td>
+                      <span class="itemPrice">Cena: </span>
+                    </td>
+                    <td>
+                      <span id="price_item8" class="itemPriceNum">25</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <span class="quantity">Ilość: </span>
+                    </td>
+                    <td>
+                      <input
+                        class="quantityInput"
+                        id="qInput8"
+                        type="number"
+                        min="1"
+                        max="10"
+                      />
+                    </td>
+                  </tr>
+                </table>
+                <input
+                  type="checkbox"
+                  name="addItemToCart"
+                  id="toCart8"
+                  class="cartCheckbox"
+                />
+                <div class="itemButtons mt-3">
+                  <label for="toCart8" class="btn btn-secondary">
+                    <span id="toCartBtn8">Do koszyka</span>
+                    <span class="delItemBtn" id="outOfCartBtn8"
+                      >Usuń z koszyka</span
+                    >
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page-section" id="productCart">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-5 h_color">W koszyku</h2>
+          <div id="cartDisplay">
+            <!-- <hr /><p class="text-center fs-4">Koszyk jest pusty</p>
+
+            <div id="cartHeader">
+              <div class="text-center row">
+                <div class="col-1" id="delItBtn"></div>
+                <div class="col" id="nameIt">Nazwa produktu</div>
+                <div class="col" id="priceIt">Sztuk</div>
+                <div class="col" id="quantityIt">Cena (za sztuke)</div>
+              </div>
+              <hr />
+            </div>
+            <div id="cartInside"></div>
+            <div id="cartFooter">
+              <hr />
+              <div class="row text-center">
+                <div class="col">
+                  <span id="cartValueName">Wartość koszyka:</span>
+                  <span id="cartValue"></span>
+                  <span> zł</span>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+      <section class="page-section" id="userData">
+        <div class="container">
+          <h2 class="text-center fs-1 mb-5 h_color_muted">Podaj swoje dane</h2>
+          <p class="text-center fs-5 h_color">Aby dokończyc składanie zamówienia, wpisz wymagane dane</p>
+          <hr>
+          <form class="p_color" id="userDataForm" action="mailto:zyx@xyz.xy" method="post" onsubmit="return checkForm()" >
+            <div
+              id="userDataContainer"
+              class="
+                row row-cols-1 row-cols-lg-2
+                g-4
+                mx-2
+                pb-5
+              "
+              >
+                <div id="firstname" class="col">
+                  <div class="d-flex flex-column">
+                  <label for="firstnameInput">Imię:</label>
+                  <input id="firstnameInput" class="m-2" type="text"
+                  placeholder="Xyz lub Xyz Xyz(...)">
+                </div>
+              </div>
+              <div id="surname" class="col">
+                <div class="d-flex flex-column">
+                  <label for="surnameInput">Nazwisko:</label>
+                  <input id="surnameInput" class="m-2" type="text" placeholder="Xyz lub Xyz-Xyz(...)">
+                </div>
+              </div>
+              <div id="emailAdr" class="col">
+                <div class="d-flex flex-column">
+                  <label for="emailAdrInput">Adres e-mail:</label>
+                  <input id="emailAdrInput" class="m-2" type="email">
+                </div>
+              </div>
+              <div id="telNumber" class="col">
+                <div class="d-flex flex-column">
+                  <label for="telNumberInput">Numer telefonu:</label>
+                  <input id="telNumberInput" class="m-2" type="text" placeholder="xyz-xyz-xyz">
+                </div>
+              </div>
+              <div id="country" class="col">
+                <div class="d-flex flex-column">
+                  <label for="countrySelect">Państwo:</label>
+                  <select name="panstwo" id="countrySelect">
+                    <option value="Polska" selected>Polska</option>
+                    <option value="Czechy">Czechy</option>
+                    <option value="Niemcy">Niemcy</option>
+                    <option value="Slowacja">Słowacja</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+            <p class="text-center fs-5 h_color_muted">Wybierz metodę płatności:</p>
+            <div class="row text-center">
+              <div class="col d-flex flex-column flex-lg-row">
+                <input type="radio" name="payment" id="card" value="Eurocard" class="mx-lg-2">
+                <label for="card">Eurocard</label>
+              </div>
+              <div class="col d-flex flex-column flex-lg-row">
+                <input type="radio" name="payment" id="visa" value="Visa" class="mx-lg-2">
+                <label for="visa">Visa</label>
+              </div>
+              <div class="col d-flex flex-column flex-lg-row">
+                <input type="radio" name="payment" id="przelew" value="Przelew" class="mx-lg-2">
+                <label for="przelew">Przelew bankowy</label>
+              </div>
+              <div class="col d-flex flex-column flex-lg-row">
+                <input type="radio" name="payment" id="blik" value="Blik" class="mx-lg-2">
+                <label for="blik">Blik</label>
+              </div>
+            </div>
+
+            <div id="userDataBtns" class="mt-5 text-center">
+              <hr>
+              <input type="submit" class="btn-lg btn-success mx-5 my-2" value="Wyślij" />
+              <input type="reset" class="btn-lg btn-danger mx-5 my-2" value="Anuluj" />
+            </div>
+            <hr>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Footer-->
+    <div class="parallaxFooter parallax">
+      <div class="heading">Odkrywaj kosmos!</div>
+    </div>
+    <footer class="footer py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div>
+            Copyright &copy; MF
+            <!-- This script automatically adds the current year to your website footer-->
+            <!-- (credit: https://updateyourfooter.com/)-->
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/produkty.js"></script>
+  </body>
+</html>

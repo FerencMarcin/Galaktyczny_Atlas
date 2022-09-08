@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+// * {
+//   box-sizing: border-box;
+// }
+
+// html, body {
+//   margin: 0;
+//   padding: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
+#CardSection {
+width: 100%;
+min-height: 500px;
+
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+input[type=radio] {
+  display: none;
+}
+
+.cardSlide {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform .4s ease;
+  cursor: pointer;
+
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+
+.containerCards {
+    height: 500px;
+  transform-style: preserve-3d;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: background .4s ease-in;
+  // background-color: #c394f8;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+  z-index: -10;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+#item-1:checked ~ .cards #card-5, #item-2:checked ~ .cards #card-1, #item-3:checked ~ .cards #card-2, #item-4:checked ~ .cards #card-3, #item-5:checked ~ .cards #card-4 {
+  transform: translatex(-40%) scale(.8);
+  transition: .5s;
+  opacity: .6;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #card-2, #item-2:checked ~ .cards #card-3, #item-3:checked ~ .cards #card-4, #item-4:checked ~ .cards #card-5, #item-5:checked ~ .cards #card-1 {
+  transform: translatex(40%) scale(.8);
+  transition: .5s;
+  opacity: .6;
+  z-index: 0;
+}
+
+#item-1:checked ~ .cards #card-4, #item-2:checked ~ .cards #card-5, #item-3:checked ~ .cards #card-1, #item-4:checked ~ .cards #card-2, #item-5:checked ~ .cards #card-3 {
+    transform: translateX(-20%) scale(.4);
+    transition: .5s;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+#item-1:checked ~ .cards #card-3, #item-2:checked ~ .cards #card-4, #item-3:checked ~ .cards #card-5, #item-4:checked ~ .cards #card-1, #item-5:checked ~ .cards #card-2 {
+    transform: translateX(20%) scale(.4);
+    transition: .5s;
+    opacity: 0.1;
+    z-index: -1;
+}
+
+#item-1:checked ~ .cards #card-1, #item-2:checked ~ .cards #card-2, #item-3:checked ~ .cards #card-3, #item-4:checked ~ .cards #card-4, #item-5:checked ~ .cards #card-5 {
+  transform: translatex(0) scale(1);
+  opacity: 1;
+  z-index: 1;
+  
+  img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+}
+
+.player {
+  background-color: rgba(86, 91, 105, 0.575);
+  border-radius: 8px;
+//   min-width: 320px;
+  padding: 10px 10px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 5px 8px 8px rgba(0, 0, 0, 0.308);
+}
+
+.upper-part {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  height: 45px;
+  overflow: hidden;
+}
+
+.card-info {
+  width: calc(100% - 32px);
+  display: block;
+  position: absolute;
+  top: -50px;
+}
+
+.card-info .title {
+  /* color: #403d40; */
+  color: azure;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.685);
+  font-size: 1.4rem;
+  line-height: 24px;
+  font-weight: 900;
+}
+
+.sub-line {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.subtitle, .time {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  color: white;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.685);
+  font-weight: 400;
+}
+
+// .info-area {
+//   width: 100%;
+//   position: absolute;
+//   top: 0;
+//   left: 30px;
+//   transition: transform .4s ease-in;
+// }
+
+#item-1:checked ~ .player #card-info-1 {
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
+  }
+  
+  #item-2:checked ~ .player #card-info-2 {
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
+  }
+
+  #item-3:checked ~ .player #card-info-3 {
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
+  }
+
+  #item-4:checked ~ .player #card-info-4 {
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
+  }
+
+  #item-5:checked ~ .player #card-info-5 {
+    transform: translateY(50px);
+    transition: 1s ease-in-out;
+  }
+
+@media (max-width: 450px) {
+    .containerCards {
+        height: 400px;
+    }
+}
+
+@media (max-width: 300px) {
+    .containerCards {
+        height: 300px;
+    }
+}
+
+
+@media (min-width: 1100px) {
+.containerCards {
+    height: 600px;
+}
+}
+
+@media (min-width: 1400px) {
+    .containerCards {
+        width: 100%;
+
+    }
+
+    .cardSlide {
+        width: 45%;
+    }
+    
+    #item-1:checked ~ .cards #card-4, #item-2:checked ~ .cards #card-5, #item-3:checked ~ .cards #card-1, #item-4:checked ~ .cards #card-2, #item-5:checked ~ .cards #card-3 {
+        transform: translateX(-80%) scale(.5);
+        transition: .5s;
+        opacity: 0.2;
+        z-index: -1;
+    }
+    
+    #item-1:checked ~ .cards #card-3, #item-2:checked ~ .cards #card-4, #item-3:checked ~ .cards #card-5, #item-4:checked ~ .cards #card-1, #item-5:checked ~ .cards #card-2 {
+        transform: translateX(80%) scale(.5);
+        transition: .5s;
+        opacity: 0.2;
+        z-index: -1;
+    }
+    
+}
+
+.parallax1 {
+  background: url(/assets/img/sectionHeader/section_galeria.jpg);
+  text-align: center;
+  height: max(70vh, 400px);
+  /* z-index: 5; */
+}
+
+.parallax1::before {
+  background-color: rgba(0, 0, 0, 0.267);
+  content: '';
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  /* z-index: 10; */
+}
+.parallax {
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  position: absolute;
+  color: white;
+  /* color: #f11679; */
+  font-size: 4rem;
+  top: 38%;
+  width:100%;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-shadow: 0 0 10px #b60b58;
+  z-index: 20;
+}
+
+@media (min-width: 400px){
+  .heading {
+    font-size: 5rem;
+  }
+}

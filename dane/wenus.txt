@@ -1,0 +1,86 @@
+<div class="col py-5">
+                <h3 class="text-center text-uppercase fs-2 mb-5 articleHeader">
+                  Wenus
+                </h3>
+                <h4 class="text-start fs-3 mx-5">Tytuł akapitu1</h4>
+                <img
+                  src="assets/img/articlePictures/wenus_pic1.png"
+                  class="
+                    col-12
+                    mb-1
+                    col-lg-4
+                    m-lg-3
+                    ms-lg-3
+                    rounded
+                    float-sm-start
+                  "
+                  alt="wenus"
+                />
+                <p class="lh-base p_justify">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recusandae iure impedit alias, tenetur ab totam facere
+                  voluptatem accusamus nobis deleniti commodi aliquid veniam
+                  maxime ad amet praesentium, similique repudiandae molestias
+                  eligendi ipsa maiores! Aspernatur sapiente enim nostrum sed
+                  iure voluptatum ipsam ipsum et vero tempore possimus provident
+                  itaque ea illum optio commodi quos esse, libero reprehenderit
+                  consequatur nihil repellendus, dolorem ut. Voluptatem officiis
+                  iste ipsam officia! Exercitationem, eligendi necessitatibus.
+                  Earum, accusamus repellat animi culpa perspiciatis incidunt,
+                  cumque a tenetur eum tempore excepturi, impedit odio quaerat
+                  omnis? Nulla quisquam aspernatur expedita? Minima laboriosam
+                  id optio incidunt quibusdam! Corrupti enim ex aliquid, ipsam
+                  velit rerum recusandae vitae tempore, odit sapiente quo
+                  commodi, earum ea aut eos nisi? Voluptates asperiores culpa
+                  cum laborum illo, quia modi autem. Dolores cumque veritatis
+                  maiores sunt? Quibusdam, est? Quae facere quisquam architecto!
+                  Voluptatibus, sint. Atque, non. Ex, rerum modi eligendi
+                  voluptatum ab minus iusto soluta temporibus recusandae? Est
+                  nihil quis amet, qui laudantium iste ex inventore mollitia
+                  facere repudiandae quasi dolore libero sed similique ad
+                  possimus excepturi expedita! Nostrum perspiciatis error fugit
+                  ipsa dolore minima quas. Pariatur ducimus explicabo assumenda
+                  voluptatum veniam, excepturi veritatis fuga quis eligendi odit
+                  ab dolore fugit sed aperiam a eius quibusdam inventore? Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Ut odit,
+                  quod magnam provident quis est fugiat quam veritatis labore,
+                  asperiores rem, sint nulla sapiente. Dicta doloremque,
+                  reprehenderit nobis eius incidunt, quasi officia reiciendis
+                  animi nesciunt consectetur, facere velit! Nemo, laborum! Lorem
+                  ipsum dolor, sit amet consectetur adipisicing elit. Quis
+                  dolores laborum non laudantium quos voluptas, officiis eos hic
+                  quibusdam ipsa tempora a sapiente ratione quas animi, neque,
+                  deleniti sequi possimus adipisci? Dolorem cupiditate
+                  reiciendis itaque, sapiente aliquid mollitia quos, modi maxime
+                  sed doloribus accusantium veritatis ipsam dolorum. Itaque,
+                  accusantium deleniti! Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Suscipit inventore maiores eos illum at
+                  dolores, in sapiente magnam fugit qui. Lorem ipsum dolor sit
+                  amet consectetur, adipisicing elit. Voluptate tenetur numquam
+                  minus? Odio eaque reprehenderit error, tenetur aspernatur
+                  consequuntur architecto labore veritatis quasi quisquam
+                  beatae, exercitationem maiores fugiat quas quae.
+                </p>
+              </div>
+              <h4 class="text-start fs-3 mx-5 pt-5">Tytuł akapitu2</h4>
+              <p class="p_justify pb-5">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+                neque laboriosam soluta nesciunt sequi nostrum minima deserunt,
+                fugiat exercitationem quis quaerat ea illum. Expedita sapiente
+                mollitia et veritatis fugit perferendis eum optio vel obcaecati
+                commodi, cupiditate nesciunt voluptatibus id beatae voluptas
+                esse? Autem quam consequuntur, rerum nemo dolores dignissimos
+                nulla!
+              </p>
+              <h4 class="text-start fs-3 mx-5">Tytuł akapitu3</h4>
+              <p class="p_justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
+                neque laboriosam soluta nesciunt sequi nostrum minima deserunt,
+                fugiat exercitationem quis quaerat ea illum. Expedita sapiente
+                mollitia et veritatis fugit perferendis eum optio vel obcaecati
+                commodi, cupiditate nesciunt voluptatibus id beatae voluptas
+                esse? Autem quam consequuntur, rerum nemo dolores dignissimos
+                nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore maiores nulla eum eaque tenetur. Atque, quasi quaerat
+                in incidunt maiores cum nulla possimus distinctio odit?
+              </p>
